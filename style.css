@@ -1,1 +1,13 @@
-/* ADetailing website styles */
+header {
+    background: #050505;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #39ff14;
+}
