@@ -140,3 +140,7 @@ form {
 .pricing-card p {
     padding: 10px 20px;
 }
+button {
+    display: block;
+    margin: 20px auto;
+}
