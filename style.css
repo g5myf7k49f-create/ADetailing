@@ -36,7 +36,7 @@ nav a {
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 20px auto;
     font-weight: bold;
 }
 h1, h2, h3 {
