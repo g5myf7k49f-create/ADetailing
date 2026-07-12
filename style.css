@@ -260,3 +260,7 @@ footer {
     color: black;
     text-decoration: none;
 }
+.price-button h3,
+.price-button p {
+    color: black;
+}
