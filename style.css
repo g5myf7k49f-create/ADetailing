@@ -87,3 +87,12 @@ input, select, textarea {
     border: none;
     box-sizing: border-box;
 }
+section {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
