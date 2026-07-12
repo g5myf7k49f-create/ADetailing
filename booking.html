@@ -64,7 +64,7 @@
     
 <label>Select Service</label>
 <br>
-<select name="service">
+<select name="service"> id="service"
     <option>Interior Detail</option>
     <option>Exterior Detail</option>
     <option>Full Detail</option>
@@ -91,5 +91,13 @@
 <footer>
     <p>© 2026 A<sup>+</sup> Detailing</p>
 </footer>
+<script>
+const params = new URLSearchParams(window.location.search);
+const service = params.get("service");
+
+if (service) {
+    document.getElementById("service").value = service;
+}
+</script>
 </body>
 </html>
