@@ -188,3 +188,26 @@ margin: 5px auto;
     margin: -30px -30px 25px -30px;
     padding: 20px;
 }
+.contact-page {
+    border: 8px solid #39ff14;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.contact-container {
+    min-height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.contact-box {
+    background: white;
+    color: black;
+    width: 100%;
+    max-width: 600px;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;
+}
