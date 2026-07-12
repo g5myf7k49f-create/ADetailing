@@ -25,7 +25,7 @@
 <input type="text" name="name" placeholder="Full Name">
 <br><br>
 
-<label>Phone Number</label>
+<label>Phone Number or Email</label>
 <br>
 <input type="tel" name="phone" placeholder="Phone Number">
 <br><br>
@@ -34,7 +34,20 @@
 <br>
 <input type="text" name="vehicle" placeholder="Example: 2022 Ford F-150">
 <br><br>
+<label>Vehicle Type</label>
+<br>
+<select name="vehicle_type">
+    <option>Car</option>
+    <option>Truck</option>
+    <option>SUV</option>
+    <option>Van</option>
+</select>
+<br><br>
 
+<label>Special Requests</label>
+<br>
+<textarea name="special_requests" placeholder="Pet hair, stains, odors, etc."></textarea>
+<br><br>
 <label>Choose Available Date</label>
 <br>
 <select name="date">
@@ -55,7 +68,7 @@
     
 <label>Additional Details</label><br>
 <textarea name="message" placeholder="Anything we should know about your vehicle?"></textarea><br><br>
-
+<p><strong>Important:</strong> A 50% deposit is required to reserve your appointment. Your appointment is not confirmed until the deposit has been received.</p>
 <button class="button" type="submit">Send Booking Request</button>
 
 </form>
