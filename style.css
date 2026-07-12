@@ -237,3 +237,8 @@ footer {
 .booking-page {
     font-family: Impact, sans-serif;
 }
+.price-button {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
