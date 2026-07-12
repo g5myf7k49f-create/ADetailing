@@ -144,3 +144,6 @@ form .button {
     display: inline-block;
     margin: 20px auto;
 }
+form {
+    text-align: center;
+}
