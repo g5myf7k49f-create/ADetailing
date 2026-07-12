@@ -61,10 +61,23 @@ section {
 .card {
     background: white;
     color: black;
-    margin: 20px auto;
-    padding: 25px;
-    max-width: 400px;
     border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.card h3 {
+    background: #050505;
+    color: #39ff14;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 3px solid #39ff14;
+}
+
+.card p {
+    padding: 10px 20px;
+    margin: 0;
 }
 
 footer {
