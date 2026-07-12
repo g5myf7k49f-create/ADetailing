@@ -42,3 +42,34 @@ nav a {
 h1, h2, h3 {
     font-family: "Oswald", sans-serif;
 }
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: white;
+    color: black;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    color: black;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
