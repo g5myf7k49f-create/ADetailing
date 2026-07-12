@@ -264,3 +264,10 @@ footer {
 .price-button p {
     color: black;
 }
+.pricing-card a,
+.pricing-card a:visited,
+.pricing-card a:hover,
+.pricing-card a:active {
+    color: black;
+    text-decoration: none;
+}
