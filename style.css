@@ -279,3 +279,6 @@ footer {
 .pricing-card h3 {
     color: white;
 }
+.pricing-card a h3 {
+    color: white !important;
+}
